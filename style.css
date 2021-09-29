@@ -1,0 +1,24 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  color: red;
+  background-color: aquamarine;
+}
+
+p {
+  font-size: 20px;
+  color: purple;
+}
+
+button {
+  background-color: chartreuse;
+  padding: 20px;
+  font-size: 15;
+  border-color: red;
+}
+
+img {
+  width: 600px;
+}
