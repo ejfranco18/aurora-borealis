@@ -1,6 +1,9 @@
 body {
   background-image: url("./img/galaxy.png");
+  /* Full height */
   height: 100vh;
+
+  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,15 +11,20 @@ body {
 }
 
 h1 {
-  color: black;
-  background-color: rgba(255, 255, 255, 0.3);
-  font-size: xxx-large;
-  text-align: center;
+  color: red;
+  background-color: aquamarine;
 }
 
 p {
   font-size: 20px;
   color: white;
+}
+
+button {
+  background-color: chartreuse;
+  padding: 20px;
+  font-size: 15;
+  border-color: red;
 }
 
 img {
@@ -37,8 +45,4 @@ img {
   border-radius: 50%;
   box-shadow: rgba(6, 6, 6, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   width: 250px;
-}
-
-.videos img:hover {
-  transform: rotate(180);
 }
