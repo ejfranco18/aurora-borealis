@@ -1,10 +1,10 @@
 body {
-  background-image: url("./img/galaxy.png");
-  height: 100vh;
+  background-image: url("./img/galaxy.jpg");
+  height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   background-color: #632C84;
+  padding: 30px;
 }
 
 h1 {
@@ -21,6 +21,7 @@ p {
 
 img {
   width: 600px;
+  border: 1px solid black;
 }
 
 .imagenes {
@@ -33,12 +34,29 @@ img {
   justify-content: space-around;
 }
 
+.videos-title {
+  margin-bottom: 35px;
+}
+
 .videos img {
   border-radius: 50%;
   box-shadow: rgba(6, 6, 6, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   width: 250px;
+  border: 3px solid white;
 }
 
-.videos img:hover {
-  transform: rotate(180);
+.videos a:last-child {
+  margin-left: 30px;
+}
+
+.videos a {
+  transition: all .2s ease-in-out;
+}
+
+.videos a:hover {
+  transform: scale(1.1);
+}
+
+.second img {
+  margin-left: 20px;
 }
